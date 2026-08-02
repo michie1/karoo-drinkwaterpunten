@@ -2,7 +2,7 @@
 
 ## Name
 
-Drinkwaterpunten
+Drinkwaterpunten for Karoo
 
 ## Short description
 
@@ -10,7 +10,7 @@ Public drinking-water points on the Karoo ride map, ready for offline rides.
 
 ## Description
 
-Drinkwaterpunten adds a switchable water-point layer to the native Karoo map. It ships with an offline snapshot and can fetch fresh public points by hand. The layer shows useful points near the rider and active route while keeping the load low on Karoo 2.
+Drinkwaterpunten for Karoo adds a switchable water-point layer to the native Karoo map. It ships with an offline snapshot and can fetch fresh public points by hand. The layer shows useful points near the rider and active route while keeping the load low on Karoo 2.
 
 ## Main features
 
@@ -27,6 +27,8 @@ Karoo 2 and the current Karoo on Karoo OS 1.538.2049 or newer.
 ## Data and privacy
 
 See `DATA_SOURCES.md` and `PRIVACY.md` in the repository.
+
+Data: drinkwaterpunten.nl, based on © OpenStreetMap contributors (ODbL 1.0). This is not an official app of drinkwaterpunten.nl or OpenStreetMap.
 
 ## Submission contact
 

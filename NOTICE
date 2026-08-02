@@ -1,0 +1,11 @@
+Drinkwaterpunten for Karoo
+Copyright 2026 Michiel
+
+Application code is licensed under the Apache License 2.0.
+
+Water-point data is supplied through drinkwaterpunten.nl and is based on
+© OpenStreetMap contributors. The bundled and synced point database is
+distributed under the Open Database Licence 1.0.
+
+This project is not affiliated with or endorsed by drinkwaterpunten.nl,
+OpenStreetMap, Hammerhead, or SRAM.

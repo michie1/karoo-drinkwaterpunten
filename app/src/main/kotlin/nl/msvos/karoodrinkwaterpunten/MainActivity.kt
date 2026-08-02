@@ -39,7 +39,7 @@ class MainActivity : ComponentActivity() {
                         modifier = Modifier.fillMaxSize().padding(24.dp),
                         verticalArrangement = Arrangement.spacedBy(16.dp),
                     ) {
-                        Text("Drinkwaterpunten", style = MaterialTheme.typography.headlineMedium)
+                        Text("Drinkwaterpunten for Karoo", style = MaterialTheme.typography.headlineMedium)
                         Text("Publieke tappunten op de Karoo-kaart.")
                         HorizontalDivider()
                         StatusRow("Punten", status?.pointCount?.toString() ?: "Laden…")
@@ -81,7 +81,7 @@ class MainActivity : ComponentActivity() {
                             ) {
                                 Text("Bron", style = MaterialTheme.typography.titleSmall)
                                 Text(
-                                    "De publieke tappunten komen van drinkwaterpunten.nl. De gegevens zijn gebaseerd op bijdragen aan OpenStreetMap.",
+                                    "Data: drinkwaterpunten.nl, gebaseerd op © OpenStreetMap-bijdragers (ODbL 1.0). Dit is geen officiële app van drinkwaterpunten.nl.",
                                     style = MaterialTheme.typography.bodySmall,
                                 )
                                 Row {

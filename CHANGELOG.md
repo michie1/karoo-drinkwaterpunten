@@ -8,3 +8,5 @@
 4. Limit the layer to 250 points, with nearby points first.
 5. Open native Karoo pin details when a point is tapped.
 6. Add source credit for Drinkwaterpunten.nl and OpenStreetMap.
+7. Use Apache 2.0 for code and ODbL 1.0 for the OSM-derived point database.
+8. Distinguish the app from the drinkwaterpunten.nl service.

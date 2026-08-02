@@ -1,6 +1,6 @@
 # Privacy
 
-Drinkwaterpunten does not collect, store, sell, or share personal data.
+Drinkwaterpunten for Karoo does not collect, store, sell, or share personal data.
 
 1. The extension reads the current position and active route from Karoo OS only to choose which water points to draw. This data stays on the Karoo.
 2. A manual sync downloads the public GPX file from `drinkwaterpunten.nl`. The request contains no position or route data.
