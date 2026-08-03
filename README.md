@@ -4,6 +4,8 @@ Drinkwaterpunten for Karoo adds public drinking-water taps to the Hammerhead Kar
 
 The extension is built for Karoo 2 and the current Karoo. It has no account, ads, analytics, or tracking.
 
+![Drinkwaterpunten shown on a Karoo map](docs/screenshot.png)
+
 ## Behaviour
 
 1. The APK includes an offline snapshot of the public points.
