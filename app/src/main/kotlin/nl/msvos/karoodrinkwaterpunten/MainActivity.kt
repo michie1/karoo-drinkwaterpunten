@@ -54,11 +54,7 @@ class MainActivity : ComponentActivity() {
                                     runCatching { repository.sync() }
                                         .onSuccess {
                                             status = it.status
-                                            message = if (it is WaterPointRepository.SyncResult.Updated) {
-                                                "De punten zijn bijgewerkt."
-                                            } else {
-                                                "Je had al de nieuwste gegevens."
-                                            }
+                                            message = "De punten zijn bijgewerkt."
                                             sendBroadcast(Intent(WaterPointRepository.CACHE_UPDATED_ACTION).setPackage(packageName))
                                         }
                                         .onFailure { message = it.message ?: "Sync mislukt." }
@@ -81,12 +77,12 @@ class MainActivity : ComponentActivity() {
                             ) {
                                 Text("Bron", style = MaterialTheme.typography.titleSmall)
                                 Text(
-                                    "Data: drinkwaterpunten.nl, gebaseerd op © OpenStreetMap-bijdragers (ODbL 1.0). Dit is geen officiële app van drinkwaterpunten.nl.",
+                                    "Data: © OpenStreetMap-bijdragers (ODbL 1.0), opgehaald via Overpass API. Dit is geen officiële OpenStreetMap-app.",
                                     style = MaterialTheme.typography.bodySmall,
                                 )
                                 Row {
-                                    TextButton(onClick = { uriHandler.openUri("https://drinkwaterpunten.nl") }) {
-                                        Text("Drinkwaterpunten.nl")
+                                    TextButton(onClick = { uriHandler.openUri("https://overpass-api.de") }) {
+                                        Text("Overpass API")
                                     }
                                     TextButton(onClick = { uriHandler.openUri("https://www.openstreetmap.org/copyright") }) {
                                         Text("OpenStreetMap")

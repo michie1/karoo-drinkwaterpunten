@@ -16,7 +16,7 @@ Drinkwaterpunten for Karoo adds a switchable water-point layer to the native Kar
 
 1. Native switchable Karoo map layer.
 2. Offline public water-point data for the Netherlands.
-3. Manual updates from Drinkwaterpunten.nl.
+3. Manual updates from OpenStreetMap through Overpass API.
 4. Native pin details and navigation flow.
 5. No account, ads, analytics, or tracking.
 
@@ -28,7 +28,7 @@ Karoo 2 and the current Karoo on Karoo OS 1.538.2049 or newer.
 
 See `DATA_SOURCES.md` and `PRIVACY.md` in the repository.
 
-Data: drinkwaterpunten.nl, based on © OpenStreetMap contributors (ODbL 1.0). This is not an official app of drinkwaterpunten.nl or OpenStreetMap.
+Data: © OpenStreetMap contributors (ODbL 1.0), fetched through Overpass API. This is not an official app of OpenStreetMap or Overpass API.
 
 ## Submission contact
 

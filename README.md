@@ -1,6 +1,6 @@
 # Drinkwaterpunten for Karoo
 
-Drinkwaterpunten for Karoo adds public drinking-water taps to the Hammerhead Karoo ride map. It uses the public GPX feed from [drinkwaterpunten.nl](https://drinkwaterpunten.nl/gpx), whose data comes from OpenStreetMap.
+Drinkwaterpunten for Karoo adds public drinking-water taps to the Hammerhead Karoo ride map. It reads `amenity=drinking_water` and `drinking_water=yes` features from [OpenStreetMap](https://www.openstreetmap.org) through the [Overpass API](https://overpass-api.de), excluding restricted-access points.
 
 The extension is built for Karoo 2 and the current Karoo. It has no account, ads, analytics, or tracking.
 
@@ -43,6 +43,6 @@ The APK is written to `app/build/outputs/apk/debug/app-debug.apk`.
 
 ## Data credit
 
-Water-point data: drinkwaterpunten.nl, based on © OpenStreetMap contributors and distributed under ODbL 1.0. Map display and routing are supplied by Hammerhead Karoo OS.
+Water-point data: © OpenStreetMap contributors, fetched through Overpass API and distributed under ODbL 1.0. Map display and routing are supplied by Hammerhead Karoo OS.
 
-See [DATA_SOURCES.md](DATA_SOURCES.md) for data terms and [PRIVACY.md](PRIVACY.md) for the privacy note. The app code is available under Apache 2.0. This is not an official app of drinkwaterpunten.nl, OpenStreetMap, Hammerhead, or SRAM.
+See [DATA_SOURCES.md](DATA_SOURCES.md) for data terms and [PRIVACY.md](PRIVACY.md) for the privacy note. The app code is available under Apache 2.0. This is not an official app of OpenStreetMap, Overpass API, Hammerhead, or SRAM.
