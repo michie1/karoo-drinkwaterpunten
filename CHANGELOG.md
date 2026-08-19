@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.0
+
+1. Fetch water points direct from OpenStreetMap through the Overpass API.
+2. Include both `amenity=drinking_water` and `drinking_water=yes` features.
+3. Exclude points with private, closed, or customer-only access.
+4. Support water points mapped as nodes, ways, and relations.
+5. Refresh the bundled offline snapshot from OpenStreetMap.
+
 ## 1.0.0
 
 1. Show public drinking-water points as a native Karoo map layer.
