@@ -1,0 +1,17 @@
+{
+  "label": "Drinkwaterpunten for Karoo",
+  "packageName": "nl.msvos.karoodrinkwaterpunten",
+  "latestApkUrl": "https://github.com/michie1/karoo-drinkwaterpunten/releases/latest/download/drinkwaterpunten.apk",
+  "latestVersion": "1.1.1",
+  "latestVersionCode": 3,
+  "iconUrl": "https://github.com/michie1/karoo-drinkwaterpunten/releases/latest/download/drinkwaterpunten.png",
+  "developer": "Michiel Vos",
+  "description": "Public drinking-water points on the Karoo ride map, ready for offline rides. Includes a switchable native map layer and manual OpenStreetMap updates, with no account, ads, analytics, or tracking.",
+  "releaseNotes": "Adds Extension Library self-service publishing and a clear water-drop icon for the map-layer toggle.",
+  "screenshotUrls": [
+    "https://raw.githubusercontent.com/michie1/karoo-drinkwaterpunten/main/docs/screenshot.png"
+  ],
+  "tags": [
+    "health"
+  ]
+}

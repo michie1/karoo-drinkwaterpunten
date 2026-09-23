@@ -32,7 +32,8 @@ The APK is written to `app/build/outputs/apk/debug/app-debug.apk`.
 2. Set the four variables shown in `release-signing.env.example`.
 3. Run `./gradlew test assembleRelease` to make a signed release APK.
 4. For GitHub releases, add `RELEASE_KEYSTORE_BASE64`, `KEYSTORE_PASSWORD`, `KEY_ALIAS`, and `KEY_PASSWORD` as Actions secrets.
-5. Push a tag such as `v1.0.0`; the release workflow tests, signs, hashes, and publishes the APK.
+5. Push a tag such as `v1.1.1`; the release workflow tests, signs, hashes, and publishes the APK, checksum, icon, and Extension Library manifest.
+6. Add `https://github.com/michie1/karoo-drinkwaterpunten/releases/latest/download/manifest.json` in the [Hammerhead developer dashboard](https://dashboard.hammerhead.io) to test and submit the app.
 
 ## Install on Karoo 2
 

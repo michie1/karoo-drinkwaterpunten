@@ -32,4 +32,8 @@ Data: © OpenStreetMap contributors (ODbL 1.0), fetched through Overpass API. Th
 
 ## Submission contact
 
-Hammerhead currently asks extension authors to contact `gpollock@sram.com` for Extension Library review.
+The Extension Library uses Hammerhead's developer dashboard. Add this manifest URL while testing:
+
+`https://github.com/michie1/karoo-drinkwaterpunten/releases/latest/download/manifest.json`
+
+When testing is complete, submit the extension for SRAM review in the dashboard. Publication requires a signed SDK licensing agreement.
